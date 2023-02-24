@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asad Ecommers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary  rounded-2 mb-5 ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#shoes">Shoes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#bagpacks">Bagpacks</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#subscribe">Contact Us</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide caro_bg">
+            <div class="carousel-inner p-5">
+              <div class="carousel-item active">
+                <div class="row align-items-center m-3">
+                    <div class="col-md-7">
+                       <h1>Mi LED TV PRO 32"</h1>
+                       <p>This is a limited tv eddition and it is beautiful to see any content</p>
+                       <h1 class="price">$420</h1>
+                       <button class="btn btn-primary">BUY NOW>></button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/banner-images/tv.png" class="d-block w-100 rounded-2" alt="tv">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center m-3">
+                    <div class="col-md-7">
+                        <h1>Uissi 12 Headphone"</h1>
+                       <p>This is a limited headphone eddition and it is beautiful to listen any song</p>
+                       <h1 class="price">$120</h1>
+                       <button class="btn btn-primary">BUY NOW>></button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/banner-images/headphone.png" class="d-block w-100 rounded-2" alt="headphones">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+               <div class="row align-items-center m-3">
+                <div class="col-md-7">
+                    <h1>X-Box Game Player"</h1>
+                       <p>Thsi is a game player.You can play andy game by usting this game player xbox</p>
+                       <h1 class="price">$220</h1>
+                       <button class="btn btn-primary">BUY NOW>></button>
+                </div>
+                <div class="col-md-5">
+                    <img src="images/banner-images/xbox.png" class="d-block w-100 rounded-2" alt="gamebox">
+                </div>
+               </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+
+    <div class="container catagories">
+        <div class="row ">
+            <div class="col-md-4 p-3 ">
+                <div class="cat1 d-flex justify-content-between rounded-4 align-items-center">
+                    <h1>Watch</h1>
+                    <img src="images/categories/watch.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4 p-3">
+                <div class="cat2 d-flex justify-content-between rounded-4 align-items-center">
+                    <h1><a class="linkItem" href="#bagpacks">Bag</a></h1>
+                    <img src="images/categories/bag.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4 p-3">
+                <div class="cat3 d-flex justify-content-between rounded-4 align-items-center">
+                    <h1>Shoes</h1>
+                    <img src="images/categories/shoes.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container shoes p-5" id="shoes">
+        <h1>Shoes</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 rounded-4 shadow">
+                <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sply 350</h5>
+                  <p class="card-text">This is a good quality shoes. If you want to buy if than click the buttne below</p><br>
+                  <h2>$90</h2>
+                 
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"> <button class="btn btn-warning">Buy Now>></button></small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 rounded-4 shadow">
+                <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nike 320</h5>
+                  <p class="card-text">This shoes is from Nike and it is a very good quality shoes.It comes from abrode</p><br>
+                  <h2>$330</h2>
+                  
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"><button class="btn btn-danger">Buy Now>></button></small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 rounded-4 shadow">
+                <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">AirMax 420</h5>
+                  <p class="card-text">This is a very good quality shoes You can buy it from our site at a very cheeper rate</p>
+                  <h2>$110</h2>
+                  
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"><button class="btn btn-primary">Buy Now>></button></small>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+
+    <div class="container bagpacks " id="bagpacks">
+        <h1>Bagpacks</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 rounded-4 shadow">
+                <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hunter 350</h5>
+                  <p class="card-text">This is a good quality Bags. If you want to buy if than click the buttne below</p><br>
+                  <h2>$120</h2>
+                 
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"> <button class="btn btn-warning">Buy Now>></button></small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 rounded-4 shadow">
+                <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Legend</h5>
+                  <p class="card-text">This bag is from Nike and it is a very good quality bag.It comes from abrode</p><br>
+                  <h2>$350</h2>
+                  
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"><button class="btn btn-danger">Buy Now>></button></small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 rounded-4 shadow">
+                <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lenevo Laptop Bag</h5>
+                  <p class="card-text">This is a very good quality bag You can buy it from our site at a very cheeper rate</p>
+                  <h2>$110</h2>
+                  
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"><button class="btn btn-primary">Buy Now>></button></small>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="container subscribe rounded-5 d-flex align-items-center justify-content-center p-4" id="subscribe">
+            <div>
+                <h3>LET'S STAY IN TOUCH</h3>
+            <P>Get updates on sales specials and more</P>
+            <input class="form-control" type="text">
+            <button class="btn btn-success">Submit</button>
+            </div>
+    </div>
+    <footer class="container d-flex align-items-center justify-content-center">
+        <small>@Copyright 2020. All rights reserved by the Asad Ecommerce ,Tangail,Dhaka </small>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
